@@ -68,7 +68,7 @@ html, body {
 
 /* Home */
 #home {
-	background: url(images/milky_way.jpg) no-repeat center center fixed;
+	background: url(images/milky_way.jpg) no-repeat center;
 	background-size: cover;
 	display: table;
 	height: 100%;
