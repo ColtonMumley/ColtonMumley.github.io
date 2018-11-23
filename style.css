@@ -102,14 +102,14 @@ html, body {
   margin: 0 auto;
 }
 
-.fa-angle-down {
-	font-size: 90px !important;
-}
-
 .fa {
 	padding: 15px;
 	font-size: 25px;
 	color: white;
+}
+
+.fa-angle-down {
+	font-size: 90px !important;
 }
 
 .fa:hover {
@@ -120,7 +120,7 @@ html, body {
 
 /* About */
 #about {
-	border-top: 100px solid #fff;
+	border-top: 150px solid #fff;
 	margin-top: 30px;
 	margin-bottom: 50px;
 }
@@ -150,7 +150,7 @@ html, body {
 /* Activities */
 #activities {
 	width: 100%;
-	border-top: 80px solid #F1F1F1;
+	border-top: 140px solid #F1F1F1;
 	margin-bottom: 50px;
 	background: #F1F1F1;
 }
