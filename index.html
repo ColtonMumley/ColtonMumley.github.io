@@ -1,28 +1,184 @@
-<!DOCTYPE html>
-<html>
-<title>Coming Soon</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-    background-image: url('bg_image.png');
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-}
-</style>
-<body>
+<!doctype html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colton Mumley</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  </head>
+  
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-middle">
-    <h1 style="color: black;" class="w3-jumbo w3-animate-top">COMING SOON</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-  </div>
-</div>
+  <!-- Body -->
+  <body>
 
-</body>
+    <!-- Preloader 
+    <div class="load-screen">
+      <div class="loader">Loading</div>
+    </div>
+    -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#navbar-collapse-main"
+          >
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">Colton Mumley</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-main">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#connect">Connect</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="landing-text">
+        <h1 class="intro">COLTON MUMLEY</h1>
+        <div class="down-arrow">
+          <a href="#about" class="fa fa-angle-down"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 col-md-5">
+            <div class="about-left">
+              <img class="img-responsive img-circle" src="images/headshot_cutout.jpg">
+            </div>
+          </div>
+          <div class="col-sm-7 col-md-7">
+            <div class="about-right">
+              <h1>A Little About Me</h1>
+              <p>I am currently majoring in Computational Modeling & Data Analytics at Virginia Tech. I am also minoring in Computer Science, Mathematics, and Cyber Security. When I am not working on school work, I like to spend my time doing a variety of things. I absolutley love playing soccer, as I have been playing my entire life. I also like working on personal computer science related projects, since actively building new projects helps me learn new languages, frameworks, and concepts better. Even though I have a passion for technology, I also love art and desgin, which is way I'm always designing new logos, websites, drawings, etc. Front end development definitely interests me the most since I am able to combine computer science and design. To help me unwind from the stresses of school, I enjoy playing the ukulele and messing around on the piano. When school is on break and I get to go home, I am either spending time with my dog, Hudson, or catching up with my friends and family.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Activities -->
+    <section id="activities">
+      <div class="container">
+        <div class="row">
+            <h1>Activities</h1>
+
+            <div class="col-sm-4 col-md-4">
+              <div class="rocketry-left">
+                <img class="img-responsive" src="images/rocketry.png">
+              </div>
+            </div>
+            <div class="col-sm-8 col-md-8">
+              <div class="rocketry-right">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-4 col-md-4 col-md-push-8">
+              <div class="behance-right">
+                <img class="img-responsive" src="images/behance-logo.png">
+              </div>
+            </div>
+            <div class="col-sm-8 col-md-8 col-md-pull-4">
+              <div class="behance-left">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="more-btn">
+        <a type="button" class="btn btn-md btn-default" href="images/resume.pdf" target="_blank">More</a>
+      </div>
+    </section>
+
+   <!-- Connect -->
+    <section id="connect">
+      <div class="container">
+        <div class="row">
+            <form method="post" action="send_mail.php">
+          <div class="col-md-5 col-sm-5">
+              <div class="form-group">
+                <label>Name: </label>
+                <input class="form-control" type="text" name="name" placeholder="Enter Name">
+              </div>
+              <div class="form-group">
+                <label>Email: </label>
+                <input class="form-control" type="email" name="email_address" placeholder="Enter Email">
+              </div>
+          </div>
+          <div class="col-md-7 col-sm-7 connect-right">
+              <div class="form-group">
+                <label>Message: </label>
+                <textarea class="form-control" name="comments" value="" placeholder="Enter Message"></textarea>
+              </div>
+              <button class="btn btn-default">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="navscroll.js"></script>
+    <script type="text/javascript" src="smooth_scroll.js"></script>
+    <script type="text/javascript" src="scramble.js"></script> 
+    <!-- <script type="text/javascript" src="loader.js"></script> -->
+  </body>
+
+   <!-- Footer -->
+    <footer class="container-fluid text-center">
+      <div class="row">
+        <div class="col-sm-6">
+          <h3>Contact Me</h3>
+          <br>
+          <h4>colton12@vt.edu</h4>
+          <h4>(717) 654 0994</h4>
+        </div>
+        <div class="col-sm-6">
+          <h3>Connect</h3>
+          <div class="icons">
+            <a href="" class="fa fa-github"></a>
+            <a href="" class="fa fa-twitter"></a>
+            <a href="" class="fa fa-instagram"></a>
+            <a href="" class="fa fa-behance"></a>
+        </div>
+        </div>
+      </div>
+    </footer>
 </html>
