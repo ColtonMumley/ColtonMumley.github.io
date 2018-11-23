@@ -69,11 +69,17 @@ html, body {
 /* Home */
 #home {
 	background: url(images/milky_way.jpg) no-repeat center center fixed;
+	background-size: cover;
 	display: table;
 	height: 100%;
 	width: 100%;
 	position: relative;
 	background-size: cover;
+
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
 }
 
 .landing-text {
@@ -180,7 +186,7 @@ html, body {
 .more-btn {
 	display: table;
  	margin: 0 auto;
- 	padding-top: 40px;
+ 	padding-top: 60px;
  	padding-bottom: 20px;
 }
 /* End activities */
@@ -190,8 +196,12 @@ html, body {
 	padding:40px;
 }
 
-.connect-right .form-control {
-	height: 100px;
+#connect h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	text-align: center;
 }
 /* End connect */
 
@@ -201,4 +211,25 @@ footer {
 	background-color: #333333;
 	padding: 3% 5% 3% 5%;
 	color: white;
+}
+
+footer h4 a {
+	color: white;
+}
+
+footer h4 a:hover {
+	color: #D5D5D5;
+	text-decoration: none;
+}
+
+footer h4 a:focus {
+	color: white;
+	text-decoration: none;
+}
+
+
+footer a.fa:focus {
+	outline: none;
+	color: white;
+	text-decoration: none;
 }
